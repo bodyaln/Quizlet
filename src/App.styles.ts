@@ -1,14 +1,14 @@
 import styled, {createGlobalStyle} from 'styled-components';
 
 import BGImage from './images/bg_purple.jpg';
-
+import BGImageYellow from './images/bg_yellow.jpg';
 export const GlobalStyle = createGlobalStyle`
     html {
         height: 100%;
 
     }
     body{
-        background-image: url(${BGImage});
+        background-image: url(${BGImageYellow});
         background-size: cover;
         margin: 0;
         padding: 0 20px;
